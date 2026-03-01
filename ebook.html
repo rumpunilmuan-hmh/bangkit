@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangkit Walau Pernah Jatuh | Hisham Mat Hussin</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f9;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Header / Hero Section */
+        header {
+            background: linear-gradient(rgba(30, 60, 114, 0.9), rgba(42, 82, 152, 0.9)), url('poster.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            border-bottom: 5px solid #ffcc00;
+        }
+
+        .hero-flex {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .hero-text { flex: 1; min-width: 300px; text-align: left; }
+        .hero-image { flex: 1; min-width: 300px; }
+
+        .hero-image img {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+        }
+
+        h1 { font-size: 3em; margin: 0; line-height: 1.1; color: #ffcc00; }
+        .tagline { font-size: 1.4em; margin: 20px 0; font-weight: 300; }
+
+        .btn {
+            display: inline-block;
+            background: #ffcc00;
+            color: #1e3c72;
+            padding: 18px 35px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 1.2em;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+
+        .btn:hover { background: #fff; transform: translateY(-3px); }
+
+        /* Sections */
+        section { padding: 60px 0; }
+        .white-bg { background: white; }
+        
+        h2 { text-align: center; color: #1e3c72; font-size: 2em; margin-bottom: 40px; }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .feature-card {
+            padding: 30px;
+            background: #f9fbfd;
+            border-radius: 10px;
+            border-top: 4px solid #1e3c72;
+            text-align: center;
+        }
+
+        /* Poster Section */
+        .poster-box {
+            text-align: center;
+            padding: 40px;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        }
+
+        .poster-box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Testimonial */
+        .testimonial {
+            max-width: 700px;
+            margin: auto;
+            background: #1e3c72;
+            color: white;
+            padding: 40px;
+            border-radius: 20px;
+            position: relative;
+            font-style: italic;
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            background: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2.2em; }
+            .hero-text { text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container hero-flex">
+            <div class="hero-text">
+                <h1>BANGKIT WALAU PERNAH JATUH</h1>
+                <p class="tagline">Dari kegagalan menuju kejayaan dengan jiwa yang kental.</p>
+                <p>Oleh: <strong>Hisham Mat Hussin</strong></p>
+                <a href="#order" class="btn">BELI SEKARANG</a>
+            </div>
+            <div class="hero-image">
+                <img src="buku.jpg" alt="Ebook Bangkit Walau Pernah Jatuh">
+            </div>
+        </div>
+    </header>
+
+    <section class="white-bg">
+        <div class="container">
+            <h2>Kenapa Anda Wajib Baca Buku Ini?</h2>
+            <div class="grid">
+                <div class="feature-card">
+                    <h3>7 Kisah Benar</h3>
+                    <p>Himpunan kisah realiti individu yang berjaya bangkit dari titik terendah dalam hidup.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Suntikan Inspirasi</h3>
+                    <p>Setiap helaian memberi semangat baru untuk anda terus melangkah tanpa menoleh ke belakang.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Jiwa Kental</h3>
+                    <p>Teknik membina kekuatan dalaman agar tidak mudah rebah dek ujian mendatang.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="poster-box">
+                <h2>Kini Di Pasaran!</h2>
+                <img src="poster.png" alt="Poster Promosi Bangkit">
+                <p style="margin-top:20px;">Dapatkan naskhah anda hari ini di kedai-kedai buku terkemuka atau beli secara dalam talian!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="white-bg">
+        <div class="container">
+            <div class="testimonial">
+                <p>"Serius… ebuku ini best gile…"<p> 
+                <p>"Saya dah beli dan baca malam tadi.. Boleh beri inspirasi kepada pembaca.
+                    Sesuai dibaca untuk semua peringkat umur… tidak berat tetapi santai… saya sukakan susunatur ebuku ini.."<p> 
+                <p>"Hebat!!! Ini baru buku pertama penulis… semoga akan terhasil lagi ebuku2 lain yang bermutu tinggi…
+                    Rugi jika anda tidak beli…""</p>
+                <p><strong>- DR Norazwati.</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="order">
+        <div class="container" style="text-align: center;">
+            <h2>Miliki Naskhah Anda Sekarang</h2>
+            <p style="font-size: 1.5em; color: #d9534f; font-weight: bold;">Harga Istimewa: RM 13.00</p>
+            <br>
+            <a href="https://wa.me/60199118230?text=Saya%20nak%20beli%20buku%20Bangkit" class="btn">WHATSAPP UNTUK PEMBELIAN</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Hisham Mat Hussin. Hak Cipta Terpelihara.</p>
+    </footer>
+
+</body>
+</html>
